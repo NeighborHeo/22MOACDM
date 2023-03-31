@@ -1,0 +1,25 @@
+ipykernel==6.13.0
+keract
+matplotlib==3.3.3
+notebook==6.4.10
+pandas==1.1.5
+pymssql==2.2.3
+scikit-learn
+scipy
+sklearn-pandas
+statsmodels
+tqdm==4.62.3
+keras==2.8.0
+tensorflow==2.2.0
+lightgbm==3.3.2
+xgboost==1.5.2
+seaborn==0.11.2
+psycopg2
+sqlalchemy
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu
+torchvision==0.8.2+cpu
+torchaudio==0.7.2
+numpy==1.19.5
+protobuf==3.20
+psmpy==0.3.5

@@ -1,0 +1,11 @@
+.venv/
+_result/
+_temp/
+_revisions/
+.idea/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+query/
+data/
+result/

@@ -1,0 +1,8 @@
+{
+    "shift": 7, 
+    "windowsize": 28, 
+    "epochs" : 200, 
+    "patience" : 10,
+    "learningrate" : 0.001,
+    "min_val_loss" : 9999
+}

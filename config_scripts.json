@@ -1,0 +1,35 @@
+{
+    "skip_yes_no_questions" : false, 
+    "scripts": [
+        { 
+            "id": 0,  
+            "path": "./scripts/1_create_cohort_person_in_db.py",
+            "skip_run": false
+        }, 
+        { 
+            "id": 1,  
+            "path": "./scripts/2_propensity_score_matching.py",
+            "skip_run": false
+        }, 
+        { 
+            "id": 2,  
+            "path": "./scripts/3_merge_domain_data.py",
+            "skip_run": false
+        },
+        {
+            "id": 3,  
+            "path": "./scripts/4_feature_selections.py",
+            "skip_run": false
+        }, 
+        {
+            "id": 4,  
+            "path": "./scripts/7_preprocessing_lstm.py",
+            "skip_run": false
+        }, 
+        {
+            "id": 5,  
+            "path": "./scripts/8_imv_lstm_attention.py",
+            "skip_run": false
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "working_date": "19000101",
+    "dbms": "mssql",
+    "mssql": {
+        "@server": "127.0.0.1",
+        "@user": "user",
+        "@password": "password",
+        "@port": 5432,
+        "@database": "cdm",
+        "@cdm_database_schema": "cdm.dbo",
+        "@person_database_schema": "temp_moa.dbo"
+    },
+    "postgresql": {
+        "@server": "127.0.0.1",
+        "@user": "user",
+        "@password": "password",
+        "@port": 5432,
+        "@database": "cdm",
+        "@cdm_database_schema": "cdm.dbo",
+        "@person_database_schema": "temp_moa.dbo"
+    },
+    "meas": {
+        "AST": { "@meas_concept_id": "3013721" },
+        "ALT": { "@meas_concept_id": "3006923" },
+        "ALP": { "@meas_concept_id": "3035995" },
+        "TB": { "@meas_concept_id": "3024128" },
+        "CR": { "@meas_concept_id": "3016723" },
+        "PT_INR": { "@meas_concept_id": "3022217" }
+    },
+    "drug": {
+        "Acetaminophen":  {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99001", "@drug_concept_set":"19112656,1125315,19079924,42948430,42939837,1103359,1127433,42939995,19072235,2071567,40241587,42918304,42918305,42928245,42928300,42928330,42939754,42939841,42939994,42940074,42948431"},
+        "Amphotericin_B": {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99002", "@drug_concept_set":"1717240,40175779,21106016,21125465"},
+        "Vancomycin":     {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99003", "@drug_concept_set":"1707687,40221355,1707751,40221358,2011860,42971896,42971908,42971927,42971929"},
+        "Cisplatin":      {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99004", "@drug_concept_set":"2025899,2026804,42919354,42919355,42920323,42920324"},
+        "Acyclovir":      {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99005", "@drug_concept_set":"42920112,43269779,1703687,1703745,1703691,1717704,1717708,19010431,42918013,42918014,42918058,42920113,42920769,42933576,42966804,42966806,42966871,42966872,42966888"},
+        "Foscarnet":      {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99006", "@drug_concept_set":"35606301,1724700"},
+        "Lithium":        {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99007", "@drug_concept_set":"751246,19019111,42966499"},
+        "Ibuprofen":      {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99008", "@drug_concept_set":"40161247,42948430,1177480,19019050,19078461,19019072,2032386,2069810,19024626,41339644,42918098,42918274,42923558,42948431"},
+        "Diclofenac":     {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99009", "@drug_concept_set":"2009758,42921900,42941000"},
+        "Naproxen":       {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99010", "@drug_concept_set":"40992339,1115008,19019273,41127443,42965811,42967955"},
+        "Ketoprofen":     {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99011", "@drug_concept_set":"42917410,42922177,42971822"},
+        "Piroxicam":      {"task":"1", "ade":"nephrotoxicity", "drug_target_cohort_id":"99012", "@drug_concept_set":"42922576,42973718,42973730"},
+        "Meloxicam":      {"task":"2", "ade":"nephrotoxicity", "drug_target_cohort_id":"99013", "@drug_concept_set":"19103398,1150345,19103397,42374544,42374456,42952570,42952694,42952697,43256386,42952583,43288947"},
+        "Celecoxib":      {"task":"2", "ade":"nephrotoxicity", "drug_target_cohort_id":"99014", "@drug_concept_set":"1118084,42379539,19029024,19029025,19107261,1118113,42927269,42927347,42927353,1118087,1118088"},
+        "Valproic_acid":  {"task":"2", "ade":"hepatotoxicity", "drug_target_cohort_id":"99015", "@drug_concept_set":"42377469,40989613,42921639,42919003,42658275,40237993,40238249,40238257,745466,42931710,42931715,42931727,42931726,42931742,42931743,42931750"},
+        "Lamotrigine":    {"task":"2", "ade":"hepatotoxicity", "drug_target_cohort_id":"99016", "@drug_concept_set":"705103,705108,705160,19069199,705161,705152,19006206,19006208,19024856,42963260,42963270,42963259,19006207,42963251,42963269"},
+        "Meloxicam_2":    {"task":"2", "ade":"hepatotoxicity", "drug_target_cohort_id":"99017", "@drug_concept_set":"19103398,1150345,19103397,42374544,42374456,42952570,42952694,42952697,43256386,42952583,43288947"},
+        "Celecoxib_2":    {"task":"2", "ade":"hepatotoxicity", "drug_target_cohort_id":"99018", "@drug_concept_set":"1118084,42379539,19029024,19029025,19107261,1118113,42927269,42927347,42927353,1118087,1118088"},
+        "Valproic_acid_2":{"task":"2", "ade":"nephrotoxicity", "drug_target_cohort_id":"99019", "@drug_concept_set":"42377469,40989613,42921639,42919003,42658275,40237993,40238249,40238257,745466,42931710,42931715,42931727,42931726,42931742,42931743,42931750"},
+        "Lamotrigine_2":  {"task":"2", "ade":"nephrotoxicity", "drug_target_cohort_id":"99020", "@drug_concept_set":"705103,705108,705160,19069199,705161,705152,19006206,19006208,19024856,42963260,42963270,42963259,19006207,42963251,42963269"},
+        "Azilsartan":     {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99021", "@drug_concept_set":"40235485,42707639,42707641,40235487,40235491,40235488,40235492"},
+        "Candesartan":    {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99022", "@drug_concept_set":"42929951,42929931,1351557,974702,1351583,1351587,1351559,1351586,1351588,2061314,42929934,42929943,42929956,42968985,42968994,42969003,42969012"},
+        "Eprosartan":     {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99023", "@drug_concept_set":"1346686,974642,19076924"},
+        "Fimasartan":     {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99024", "@drug_concept_set":"42960008,43009001,42960027,42960031,42960035,42960000,42960003,42960006,42960009,42960028,42960032,42960036,42969150,42969153,42969155,42969158"},
+        "Irbesartan":     {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99025", "@drug_concept_set":"42972637,19078080,19078101,1347384,19022948,19022949,21131491,21151257,42972632,42972635,42972638,42972641"},
+        "Losartan":       {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99026", "@drug_concept_set":"42950866,40184184,40184187,1367500,40185276,40185304,42950369,42950402,42950439,42950497,42950601,42950901,42951010"},
+        "Olmesartan":     {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99027", "@drug_concept_set":"40224172,40224175,19127433,19127434,40226742,42969132,19096740,19096752,2063244,2063248,21023154,21032918,21062424,21101680,21160716,42955563,42955565,42955567,42969130,42969133,42969136,42969142"},
+        "Telmisartan":    {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99028", "@drug_concept_set":"40167849,40167852,42969040,1317640,19028935,19028936"},
+        "Valsartan":      {"task":"3", "ade":"hepatotoxicity", "drug_target_cohort_id":"99029", "@drug_concept_set":"1332525,1332527,19023454,19023453,42932544,46275725,46275732,46275809,1308842,19096678,1308851,1308876,1308877,1332529,1332531,19098303,21131351,42932539,42932542,42932545,42932548,42932586,42932759,42932970,42948649,42948652,42948655"}
+    }, 
+    "atccode": {
+        "A01": {"drugset":["Amphotericin_B"]},
+        "A07": {"drugset":["Amphotericin_B","Vancomycin"]},
+        "C01": {"drugset":["Ibuprofen"]},
+        "C08": {"drugset":["Celecoxib"]},
+        "C09": {"drugset":["Azilsartan","Candesartan","Eprosartan","Fimasartan","Irbesartan","Losartan","Olmesartan","Telmisartan","Valsartan"]},
+        "C10": {"drugset":["Fimasartan","Valsartan"]},
+        "D06": {"drugset":["Acyclovir"]},
+        "D11": {"drugset":["Lithium","Diclofenac"]},
+        "G01": {"drugset":["Amphotericin_B"]},
+        "G02": {"drugset":["Naproxen"]},
+        "J01": {"drugset":["Vancomycin"]},
+        "J02": {"drugset":["Amphotericin_B"]},
+        "J05": {"drugset":["Acyclovir","Foscarnet"]},
+        "L01": {"drugset":["Cisplatin","Celecoxib"]},
+        "M01": {"drugset":["Ibuprofen","Diclofenac","Naproxen","Ketoprofen","Piroxicam","Meloxicam","Celecoxib"]},
+        "M02": {"drugset":["Diclofenac","Naproxen","Ketoprofen","Piroxicam"]},
+        "N01": {"drugset":["Meloxicam"]},
+        "N02": {"drugset":["Acetaminophen","Ibuprofen","Ketoprofen","Celecoxib"]},
+        "N03": {"drugset":["Valproic_acid","Lamotrigine"]},
+        "N05": {"drugset":["Lithium"]},
+        "R02": {"drugset":["Ibuprofen"]},
+        "S01": {"drugset":["Vancomycin","Acyclovir","Diclofenac","Piroxicam"]}
+    },
+    "translatequerysql0":{
+        "../_sql/0_create_temp_cohort_table/create_temp_cohort_table_{dbms}.sql":{
+            "@cohort_database_schema": "temp_moa.dbo",
+            "@cohort_table": "temp_cohort"
+        }
+    },
+    "translatequerysql1":{
+        "../_sql/1_insert_cohort_id_into_cohort_table/total/{ade}_{dbms}.sql":{
+            "@cdm_database_schema": "cdm.dbo",
+            "@target_database_schema": "temp_moa.dbo",
+            "@target_cohort_table": "temp_cohort",
+            "@vocabulary_database_schema": "cdm.dbo",
+            "@target_cohort_id": "{drug_target_cohort_id}",
+            "@drug_concept_set": "{@drug_concept_set}"
+        },
+        "../_sql/2_create_person_drug_table/create_table_person_drug_{dbms}.sql":{
+            "@cdm_database_schema": "cdm.dbo",
+            "@cohort_database_schema": "temp_moa.dbo",
+            "@target_cohort_table": "temp_cohort",
+            "@target_database_schema": "temp_moa.dbo",
+            "@target_person_table":"person_{drug}_total",
+            "@target_cohort_id": "{drug_target_cohort_id}"
+        }
+    },
+    "translatequerysql2":{
+        "../_sql/1_insert_cohort_id_into_cohort_table/case/{ade}_{dbms}.sql":{
+            "@cdm_database_schema": "cdm.dbo",
+            "@target_database_schema": "temp_moa.dbo",
+            "@target_cohort_table": "temp_cohort",
+            "@vocabulary_database_schema": "cdm.dbo",
+            "@target_cohort_id": "{drug_target_cohort_id}"
+        },
+        "../_sql/2_create_person_drug_table/create_table_person_drug_{dbms}.sql":{
+            "@cdm_database_schema": "cdm.dbo",
+            "@cohort_database_schema": "temp_moa.dbo",
+            "@target_cohort_table": "temp_cohort",
+            "@target_database_schema": "temp_moa.dbo",
+            "@target_person_table":"{ade}_outcome",
+            "@target_cohort_id": "{drug_target_cohort_id}"
+        }
+    },
+    "translatequerysql3":{
+        "../_sql/3_make_table_from_2cohort/make_person_from_2cohort_{dbms}.sql":{
+            "@cdm_database_schema": "cdm.dbo",
+            "@target_database_schema": "temp_moa.dbo",
+            "@target_person_table_total": "person_{drug}_total",
+            "@target_person_table_case": "{ade}_outcome",
+            "@target_person_table": "person_{drug}"
+        }
+    },
+    "translatequerysql4":{
+        "../_sql/4_create_person_meas_table/create_table_person_meas_{dbms}.sql":{
+            "@cdm_database_schema": "cdm.dbo",
+            "@target_measurement_concept_id": "{@meas_concept_id}",
+            "@target_database_schema": "temp_moa.dbo",
+            "@target_person_table": "person_{meas}"
+        }
+    }
+}
